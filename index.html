@@ -1,0 +1,53 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Prova</title>
+</head>
+<body>
+    <div class="mid">
+        <div class="form">
+            <div class="title">
+                <h1>Insira a nota</h1>
+            </div>
+            <form id="form">
+                <div class="input-c">
+                    <label for="">Nome</label>
+                    <input id="nome" type="text" required>
+                </div>
+                <div class="input-c">
+                    <label for="">Matricula</label>
+                    <input id="matricula" type="text" required>
+                </div>
+                <div class="input-c">
+                    <label for="">Nota 1</label>
+                    <input id="n_1" type="number" required>
+                </div>
+                <div class="input-c">
+                    <label for="">Nota 2</label>
+                    <input id="n_2" type="number" required>
+                </div>
+                <div class="input-c">
+                    <button type="submit">ENVIAR</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="mid">
+        <div class="table">
+            <div class="title">
+                <h1>Notas</h1>
+            </div>
+            <table id="table">
+            </table>
+            <div style="width: 100%;height: 15%;margin-top: 15px;" id="clear">
+                <button style="color: white;width: 100%;background-color: red;font-weight: bold;">LIMPAR</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="./script.js"></script>
+</html>
